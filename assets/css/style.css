@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("..	/images/gemstones.jpg");
+}
+
+#heading {
+	width: 300px;
+	height: 100px;
+	background: #9932CC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+h1 {
+	font-size: 24px;
+	padding-top: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 24px;
+	margin-left: 5px;
+}
+
+#main {
+	background: #87CEEB;
+	width: 450px;
+	height: 370px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#randNum {
+	width: 150px;
+	height: 150px;
+	background: #00FFFF;
+	margin: 5px 10px 0 10px;
+	float: left;
+	font-size: 40px;
+	color: navy;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#counter {
+	width: 200px;
+	height: 150px;
+	margin-top: 5px;
+	background: #1E90FF;
+	float: left;
+	position: relative;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.crystals {
+	width: 305px;
+	height: 90px;
+	background: white;
+	margin-left: 10px;
+	margin-top: 125px;
+	border-radius: 8px;
+}
+
+#blue, #red, #green, #yellow {
+	position: relative;
+	display: inline-block;
+	margin: 5px 0 0 5px;
+
+}
+
+#Score {
+	width: 250px;
+	height: 40px;
+	background: white;
+	margin-left: 10px;
+	margin-top: -10px;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#score {
+	width: 250px;
+	height: 25px;
+	background: white;
+	font-size: 40px;
+	color: black;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#finalNum {
+	width: 250px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	background: white;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+
+
+

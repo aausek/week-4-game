@@ -1,1 +1,51 @@
-<?php include_once("index.html"); ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CrystalCollector Game</title>
+
+	<link rel="icon" href="assets/images/redcrys.png">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+	
+	<div id="heading"><h1>CrystalsCollector!</h1></div>
+	<div id="main"><br><h4>You will be given a random number at the start of the game.</h4>
+	<h4>There are four crystals below. By clicking on a crystal will add a specific amount of points to your total score.</h4>
+	<h4>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</h4>
+	<h4>The value of each crystal is hidden from you until you click on it.</h4>
+	<h4>Each time when the game starts, the game will change the values of each crystal.</h4>
+	<h1>Good luck!</h1>
+	</div>	
+	<div id="randNum"></div>	
+	<div id="counter">
+		<h2>Wins: <span id="win"></span></h2>
+		<h2>Losses: <span id="loss"></span></h2>
+	</div>
+	<br><br>
+	<div class="crystals">
+			<button id="blue"></button>
+			<button id="red"></button>
+			<button id="green"></button>
+			<button id="yellow"></button>
+	</div>
+
+	<div id="Score">
+		<h2>Total Score: </h2>
+	</div>
+	<br><br><br>
+	<div id="finalNum"><span id="score"></span></div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css" rel="stylesheet" integrity="sha384-1L94saFXWAvEw88RkpRz8r28eQMvt7kG9ux3DdCqya/P3CfLNtgqzMnyaUa49Pl2" crossorigin="anonymous">
+	
+
+</body>
+
+</html>
