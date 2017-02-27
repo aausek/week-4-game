@@ -94,7 +94,7 @@ $(document).ready(function(){
 		if (gameOver){
 			$("#win").html(wins);
 			$("#loss").html(losses);
-			setTimeout(playGame * 100);
+			setTimeout(playGame);
 		}
 	}
 

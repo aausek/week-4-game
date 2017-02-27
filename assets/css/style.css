@@ -39,16 +39,19 @@ h2 {
 	border-radius: 8px;
 }
 
-#randNum {
+#Numdiv {
 	width: 150px;
 	height: 150px;
-	background: #00FFFF;
+	background: #7FFFD4;
 	margin: 5px 10px 0 10px;
 	float: left;
-	font-size: 40px;
-	color: navy;
 	opacity: 0.9;
 	border-radius: 8px;
+}
+
+#randNum {
+	font-size: 40px;
+	color: black;
 }
 
 #counter {
@@ -107,6 +110,21 @@ h2 {
 	background: white;
 	opacity: 0.9;
 	border-radius: 8px;
+}
+
+#msg{
+	float: right;
+	margin-right: 650px;
+	width: 200px;
+	height: 100px;
+	background: white;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 15px;
+	opacity: 0.9;
+	color: black;
+	border-radius: 8px;
+
 }
 
 
